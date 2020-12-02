@@ -6,10 +6,10 @@ import (
 	"log"
 	"net/http"
 
+	_ "github.com/go-project/models/model"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
-
-	_ "github.com/go-project/models/model"
 )
 
 func main() {
